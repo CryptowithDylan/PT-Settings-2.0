@@ -1,0 +1,11 @@
+#############################INDICATOR SETTINGS##################################################
+EMA_candle_period = 3600
+EMA_fast_length = 18
+EMA_slow_length = 64
+
+RSI_candle_period = 3600
+RSI_length = 14
+
+BB_candle_period = 900
+BB_length = 20
+BB_std = 2

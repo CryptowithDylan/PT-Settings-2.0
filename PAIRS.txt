@@ -1,0 +1,56 @@
+############################ Choose Market ############################
+# ETH/BTC/USDT
+market = 
+start_balance = 
+############################## General Settings ############################
+DEFAULT_trading_enabled = true
+DEFAULT_sell_only_mode_enabled = false
+DEFAULT_dca_enabled = -6.00
+enabled_pairs = ALL
+hidden_pairs = BNB
+orderbook_profit_calculation = true
+DEFAULT_initial_cost_percentage = 2.5
+max_trading_pairs = 10
+######################## Possible Buy Log Filtering ########################
+DEFAULT_initial_cost = 0
+pair_min_listed_days = 15
+DEFAULT_max_buy_spread = 2.00
+DEFAULT_min_orderbook_volume_percentage = 133
+DEFAULT_rebuy_timeout = 0
+DEFAULT_min_buy_volume = 
+
+############################# Blacklisted Coins ############################
+BNB_trading_enabled = false
+CTR_trading_enabled = false
+
+
+############################### Buy Settings ###############################
+DEFAULT_B_buy_strategy = RSI
+DEFAULT_B_buy_value = 33
+DEFAULT_B_buy_value_limit = 1
+
+DEFAULT_D_buy_strategy = LOWBB
+DEFAULT_D_buy_value = 5
+DEFAULT_D_buy_value_limit = -2
+
+DEFAULT_C_buy_strategy = EMAGAIN
+DEFAULT_C_buy_value = -0.50
+DEFAULT_C_buy_value_limit = -0.90
+
+DEFAULT_trailing_buy = 0.40
+
+############################### Sell Settings ##############################
+DEFAULT_A_sell_strategy = GAIN
+DEFAULT_A_sell_value = 1.00
+
+DEFAULT_B_sell_strategy = HIGHBB
+DEFAULT_B_sell_value = 20.00
+
+DEFAULT_trailing_profit = 0.40
+
+############################### Triggers ####################################
+price_trigger_market = ETH
+price_rise_trigger = 
+price_rise_trigger_recover = 
+price_drop_trigger = 
+price_drop_recover_trigger = 0
