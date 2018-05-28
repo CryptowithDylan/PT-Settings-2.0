@@ -1,0 +1,11 @@
+BB_std = 2
+BB_candle_period = 1800
+BB_length = 20
+
+EMA_cross_candles = 3
+EMA_candle_period = 1800
+EMA_fast_length = 3
+EMA_slow_length = 24
+
+RSI_candle_period = 1800
+RSI_length = 14

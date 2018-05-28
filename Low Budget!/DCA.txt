@@ -1,0 +1,47 @@
+############## Initilization Settings ##################
+DCA_orderbook_profit_calculation = true
+DEFAULT_DCA_ignore_sell_only_mode = true
+
+DEFAULT_DCA_max_cost = 0
+DCA_keep_balance = 0
+DCA_keep_balance_percentage = 10
+
+DEFAULT_DCA_min_orderbook_volume_percentage = 100
+DEFAULT_DCA_max_buy_spread = 2
+DEFAULT_DCA_rebuy_timeout = 720
+
+##############  DCA Buying Settings   ###################
+DEFAULT_DCA_max_buy_times = 5
+
+DEFAULT_DCA_A_buy_strategy = ANDERSON
+
+DEFAULT_DCA_B_buy_strategy = LOWBB
+DEFAULT_DCA_B_buy_value = 0
+DEFAULT_DCA_B_buy_value_limit = -3
+ 
+DEFAULT_DCA_trailing_buy = 0.35
+ 
+DEFAULT_DCA_buy_percentage_1 = 100
+DEFAULT_DCA_buy_trigger_1 = -8
+DEFAULT_DCA_buy_percentage_2 = 50
+DEFAULT_DCA_buy_trigger_2 = -12
+DEFAULT_DCA_buy_percentage_3 = 25
+DEFAULT_DCA_buy_trigger_3 = -16
+DEFAULT_DCA_buy_percentage_4 = 25
+DEFAULT_DCA_buy_trigger_4 = -20
+DEFAULT_DCA_buy_percentage_5 = 5
+DEFAULT_DCA_buy_trigger_5 = -28
+
+##############  DCA Selling Settings   ###################
+DEFAULT_DCA_A_sell_strategy = GAIN
+DEFAULT_DCA_A_sell_value = 1
+
+DEFAULT_DCA_trailing_buy = 0.057
+
+DEFAULT_DCA_take_profit_percentage = .9
+DEFAULT_DCA_take_profit_reset_percentage_move = 0.1
+DEFAULT_DCA_take_profit_wait_time = 25
+
+##############  DCA Stoploss Settings   ###################
+DEFAULT_DCA_stop_loss_trigger = 0
+DEFAULT_DCA_stop_loss_timeout = 0
