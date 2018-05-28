@@ -21,7 +21,7 @@ https://profittrailer-services.com/pt/CryptowithDylan/
 
 **Vultr VPS**
 
-Vultr: https://www.vultr.com/?ref=7326479
+https://www.vultr.com/?ref=7326479
 
 **Buy Bitcoin Here**($10 off first Trade when purchase of $100 or more!)
 
