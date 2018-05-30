@@ -33,8 +33,8 @@ DEFAULT_DCA_buy_percentage_5 = 5
 DEFAULT_DCA_buy_trigger_5 = -28
 
 ##############  DCA Selling Settings   ###################
-DEFAULT_DCA_A_sell_strategy = GAIN
-DEFAULT_DCA_A_sell_value = 1
+DEFAULT_DCA_sell_strategy = GAIN
+DEFAULT_DCA_sell_value = 1
 
 DEFAULT_DCA_trailing_buy = 0.057
 
