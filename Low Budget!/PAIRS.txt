@@ -20,6 +20,7 @@ DEFAULT_initial_cost_percentage = 2
 DEFAULT_min_volume = 750
 DEFAULT_min_buy_price = 0
 DEFAULT_DCA_enabled = -8
+DEFAULT_trading_enabled = true
 keep_balance = 0
 
 ##############     Buy Log Settings  ####################
